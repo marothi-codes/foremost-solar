@@ -1,11 +1,3 @@
-## Getting Started
+# Foremost Solar Website
 
-Install the dependencies and run the development server
-
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
+This is the official website for Foremost Solar. A Solar Energy Company based in Johannesburg, South Africa. The website is Landing Page style project that uses theme-ui for the UI and ReactHookForm for its contact form.
