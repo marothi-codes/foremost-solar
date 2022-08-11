@@ -39,7 +39,7 @@ export default function Process() {
       <Container>
         <SectionHeader
           title="Solar Purchasing Process"
-          slogan="GET INSIGHT ON THE SOLAR SALE ➡ INSTALLATION PROCESS"
+          slogan="GET INSIGHT FROM THE SALE TO THE INSTALLATION PROCESS"
           isWhite={true}
         />
 
@@ -61,7 +61,7 @@ export default function Process() {
 
 const styles = {
   process: {
-    backgroundColor: '#3e4bd9',
+    backgroundColor: '#4099ed',
     position: 'relative',
     py: [8, null, 9, null, null, 10],
   },
