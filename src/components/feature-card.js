@@ -19,7 +19,6 @@ const styles = {
     alignItems: 'flex-start',
     mb: -1,
   },
-
   img: {
     width: ['70px', null, null, '70px', '70px', '70px'],
     height: 'auto',

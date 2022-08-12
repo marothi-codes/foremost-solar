@@ -6,7 +6,7 @@ import FeatureCardColumn from 'components/feature-card-column.js';
 import theme from 'theme';
 import Performance from 'assets/key-feature/performance.svg';
 import Partnership from 'assets/key-feature/partnership.svg';
-//import Subscription from 'assets/key-feature/subscription.svg';
+import Subscription from 'assets/key-feature/subscription.svg';
 import Support from 'assets/key-feature/support.svg';
 
 const data = [
@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Performance,
+    imgSrc: Partnership,
     altText: 'Grid-Tied Systems',
     title: 'Grid-Tied Systems',
     text:
@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Partnership,
+    imgSrc: Subscription,
     altText: 'Backup Systems',
     title: 'Backup Systems',
     text:
