@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Grid, Image, Text } from 'theme-ui';
+import { Link as ScrollLink } from 'react-scroll';
 import { Link } from '../link';
 import theme from 'theme';
 import data from './footer.data';
@@ -11,10 +12,17 @@ export default function Footer() {
       <Box sx={styles.footer.footerTopArea}>
         <Container>
           <hr sx={theme.styles.hr} />
-          
-          <Link path="/">
+
+          <ScrollLink
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            sx={styles.footer.logo}
+          >
             <Image src={FooterLogo} width={260} alt="Foremost Solar Logo" />
-          </Link>
+          </ScrollLink>
           <hr sx={theme.styles.hr} />
 
           <Grid sx={styles.footer.grid}>
@@ -84,6 +92,9 @@ export default function Footer() {
 
 const styles = {
   footer: {
+    logo: {
+      cursor: 'pointer',
+    },
     footerBottomArea: {
       backgroundColor: 'primary',
       color: '#fff',

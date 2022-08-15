@@ -10,7 +10,7 @@ import Services from '../sections/services';
 import AboutSection from '../sections/about-section';
 import WhyUs from '../sections/why-us';
 import Process from '../sections/process';
-//import TestimonialCard from '../sections/testimonial';
+import Testimonials from '../sections/testimonial';
 import ContactSection from 'sections/contact-section';
 import Partners from 'sections/partners';
 
@@ -19,13 +19,14 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <ParallaxProvider>
         <Layout>
-          <SEO title="Foremost Solar (Pty) Ltd" />
+          <SEO title="Foremost Solar (Pty) Ltd: Grid-Tied, Off-Grid or Backup Solar Power Systems Retailer, Distributor & Installer in South Africa" />
           <Banner />
           <AboutSection />
           <Services />
           <WhyUs />
           <Process />
           <Partners />
+          <Testimonials />
           <ContactSection />
         </Layout>
       </ParallaxProvider>

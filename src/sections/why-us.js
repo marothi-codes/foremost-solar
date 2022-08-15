@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
-import Work from '../sections/work';
 import SectionHeader from 'components/section-header';
 import FeatureCard from 'components/feature-card.js';
 import theme from 'theme';
@@ -63,9 +62,6 @@ export default function WhyUs() {
             />
           ))}
         </Grid>
-        <br />
-        <hr sx={theme.styles.hr} />
-        <Work />
       </Container>
     </section>
   );

@@ -10,7 +10,7 @@ export default function Banner() {
       <ParallaxBanner
         sx={styles.banner}
         id="home"
-        layers={[{ image: HeroImg, speed: -25 }]}></ParallaxBanner>
+        layers={[{ image: HeroImg, speed: -4 }]}></ParallaxBanner>
     </>
   );
 }

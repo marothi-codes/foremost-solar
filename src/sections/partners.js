@@ -106,7 +106,7 @@ const carouselParams = {
   additionalTransform: 0,
   arrows: false,
   autoPlay: true,
-  autoPlaySpeed: 2000,
+  autoPlaySpeed: 3000,
   centerMode: true,
   className: '',
   containerClass: 'carousel-container',

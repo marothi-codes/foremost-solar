@@ -156,7 +156,7 @@ export default function ContactSection() {
             <hr sx={theme.styles.hr} />
             <Button type="submit">Send It</Button>
             {'  '}
-            <Button type="reset" onClick={() => reset()}>
+            <Button type="reset" onClick={() => reset()} sx={{ variant: 'buttons.whiteButton' }}>
               Start Over
             </Button>
 
@@ -231,7 +231,7 @@ const styles = {
       border: '0',
     },
     error: {
-      color: 'primary',
+      color: 'red',
     },
     icon: {
       color: '#fff',

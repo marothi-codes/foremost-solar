@@ -78,9 +78,10 @@ const responsive = {
 };
 
 const carouselParams = {
-  additionalTransfrom: 0,
+  additionalTransform: 0,
   arrows: false,
-  autoPlaySpeed: 3000,
+  autoPlay: true,
+  autoPlaySpeed: 6000,
   centerMode: false,
   className: '',
   containerClass: 'carousel-container',
@@ -100,7 +101,7 @@ const carouselParams = {
   slidesToSlide: 1,
 };
 
-export default function TestimonialCard() {
+export default function Testimonials() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container css={{ textAlign: 'center' }}>

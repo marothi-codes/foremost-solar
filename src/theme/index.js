@@ -257,14 +257,16 @@ export default {
       variant: 'buttons.defaultBtn',
       color: 'white',
       bg: 'primary',
+      border: '1px solid #66d100',
       '&:hover': {
-        boxShadow: 'rgba(233, 76, 84, 0.57) 0px 9px 20px -5px',
+        boxShadow: 'rgba(102, 209, 8, 0.62) 0px 9px 20px -5px',
       },
     },
     whiteButton: {
       variant: 'buttons.defaultBtn',
-      color: 'heading_secondary',
-      bg: 'white',
+      color: 'primary',
+      bg: '#efefef',
+      border: '1px solid #66d100',
       '&:hover': {
         boxShadow: 'rgba(0, 0, 0, 0.5) 0px 12px 24px -10px',
       },
