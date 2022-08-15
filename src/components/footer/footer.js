@@ -113,7 +113,7 @@ const styles = {
         px: [2, null, 4],
         width: '100%',
         ':hover': {
-          color: 'primary',
+          color: '#cc4e65',
         },
       },
     },
