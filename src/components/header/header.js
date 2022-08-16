@@ -47,14 +47,14 @@ const positionAnim = keyframes`
 
 const styles = {
   header: {
-    color: '#000',
+    color: 'white',
     fontWeight: 'body',
     py: 4,
     width: '100%',
     position: 'absolute',
     top: 0,
     left: 0,
-    backgroundColor: '#efefef',
+    backgroundColor: '#000',
     transition: 'all 0.4s ease',
     animation: `${positionAnim} 0.4s ease`,
     '.donate__btn': {
@@ -64,12 +64,12 @@ const styles = {
     },
     '&.sticky': {
       position: 'fixed',
-      backgroundColor: '#efefef',
-      color: '#000',
+      backgroundColor: '#000',
+      color: 'white',
       boxShadow: '0 1px 2px rgba(0, 0, 0, 0.06)',
       py: 3,
       'nev > a': {
-        color: 'text',
+        color: 'white',
       },
     },
   },
@@ -92,10 +92,10 @@ const styles = {
       lineHeight: '1.2',
       transition: 'all 0.15s',
       '&:hover': {
-        color: 'primary',
+        color: '#b151d7',
       },
       '&.active': {
-        color: 'primary',
+        color: '#b151d7',
       },
     },
   },

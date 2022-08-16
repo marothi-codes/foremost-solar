@@ -11,20 +11,6 @@ export default function Footer() {
     <footer sx={styles.footer}>
       <Box sx={styles.footer.footerTopArea}>
         <Container>
-          <hr sx={theme.styles.hr} />
-
-          <ScrollLink
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={800}
-            sx={styles.footer.logo}
-          >
-            <Image src={FooterLogo} width={260} alt="Foremost Solar Logo" />
-          </ScrollLink>
-          <hr sx={theme.styles.hr} />
-
           <Grid sx={styles.footer.grid}>
             <div>
               <h3 sx={styles.footer.footerTopArea.foremostContacts}>Contact Foremost</h3>
@@ -66,7 +52,19 @@ export default function Footer() {
               </address>
             </div>
           </Grid>
+
         </Container>
+
+          <ScrollLink
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            sx={styles.footer.logo}
+          >
+            <Image src={FooterLogo} width={260} alt="Foremost Solar Logo" />
+          </ScrollLink>
       </Box>
       <Box sx={styles.footer.footerBottomArea}>
         <Box sx={styles.footer.menus}>
@@ -96,11 +94,11 @@ const styles = {
       cursor: 'pointer',
     },
     footerBottomArea: {
-      backgroundColor: 'primary',
+      backgroundColor: 'black',
       color: '#fff',
       display: 'flex',
-      pt: [1, null, 2],
-      pb: ['10px', null, '10px'],
+      pt: [1, null, 1],
+      pb: [1, null, 1],
       textAlign: 'center',
       flexDirection: 'column',
       link: {
@@ -113,13 +111,13 @@ const styles = {
         px: [2, null, 4],
         width: '100%',
         ':hover': {
-          color: '#cc4e65',
+          color: 'primary',
         },
       },
     },
     footerTopArea: {
-      backgroundColor: '#fff',
-      color: 'text',
+      backgroundColor: 'secondary',
+      color: 'white',
       display: 'flex',
       pt: [5, 6, 6],
       pb: ['40px', null, '100px'],
@@ -134,7 +132,7 @@ const styles = {
       },
       link: {
         fontSize: [1, '18px'],
-        color: 'text',
+        color: 'white',
         fontWeight: '400',
         mb: 2,
         cursor: 'pointer',
@@ -146,7 +144,7 @@ const styles = {
         textAlign: 'left',
         width: '100%',
         ':hover': {
-          color: '#cc4e65',
+          color: 'primary',
         },
         '@media screen and (max-width: 1024px)': {
           textAlign: 'center',
