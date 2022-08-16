@@ -87,8 +87,8 @@ export default {
       pb: ['45px', null, 5, null, null, 7, null, '90px'],
     },
     services: {
-      pt: [2, null, 2, null, null, 2],
-      pb: ['90px', null, 9, null, null, 10, null, '165px'],
+      pt: [1, null, 1, null, null, 1],
+      pb: [1, null, 1, null, null, 10, null, 1],
     },
     whyUs: {
       pb: [8, null, 9, null, null, 10, null, '170px'],
