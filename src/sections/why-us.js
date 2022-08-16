@@ -22,14 +22,14 @@ const data = [
     imgSrc: Performance,
     altText: 'Vision',
     title: 'Our Vision',
-    text: `To make sustainable energy available to the people of South Africa and Africa - quality at the best price with the best smile.`,
+    text: `To make sustainable energy available to the people of South Africa.  Quality bespoke solar systems at an affordable price with the biggest smile.`,
   },
   {
     id: 3,
     imgSrc: Subscription,
     altText: 'Our Values',
     title: 'Our Values',
-    text: `Our values include but are not limited to: Delivering Excellence, Innovative thinking, Passionate Commitment, Having fun whilst working, Ethical business practices & principles.`,
+    text: `Our values include but are not limited to: Delivering Excellence, Innovative Thought, Ethical Business practices & principles, Passionate Commitment and Satisfied Clients.`,
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const data = [
     altText: 'Post Sales Support',
     title: 'Post Sales Support',
     text:
-      'To our existing clients and prospect clients, we are here for you every step of the way. Working with Foremost Solar is not a transaction but a relationship. Give us a shout whenever in need.',
+      'To our existing and prospect clients; We are here for you every step of the way. Working with Foremost Solar is not a transaction but a relationship. Please feel free to call us on 073 028 5639 or send us a Whatsapp and we will call you back.',
   },
 ];
 
