@@ -17,8 +17,8 @@ export default function Banner() {
 
 const styles = {
   banner: {
-    aspectRatio: '16 /9',
-    backgroundColor: '#ededed',
+    aspectRatio: '16 /5',
+    backgroundColor: 'black',
     paddingTop: '100px',
       '@media screen and (max-width: 767.99px)': {
         aspectRatio: '0.9/ 1.2',
