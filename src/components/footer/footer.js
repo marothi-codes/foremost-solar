@@ -18,11 +18,11 @@ export default function Footer() {
               <Link path="mailto:info@foremostsolar.co.za" sx={styles.footer.footerTopArea.link}>
                 <strong>Email: </strong>info@foremostsolar.co.za
               </Link>
-              <Link path="tel:+27626882471" sx={styles.footer.footerTopArea.link}>
-                <strong>Phone: </strong>+27 62 688 2471
-              </Link>
               <Link path="tel:+27730285639" sx={styles.footer.footerTopArea.link}>
-                <strong>Other: </strong>+27 73 028 5639
+                <strong>Keith: </strong>+27 73 028 5639
+              </Link>
+              <Link path="tel:+27626882471" sx={styles.footer.footerTopArea.link}>
+                <strong>Petro: </strong>+27 62 688 2471
               </Link>
 
               <nav>
