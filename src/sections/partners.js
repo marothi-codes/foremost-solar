@@ -161,7 +161,7 @@ const styles = {
     px: [0, null, '30px', 0],
     textAlign: ['center', null, null, 'left'],
     width: ['100%', '80%', null, 340, 400, 430, null, 485],
-    pb: ['50px', '60px', null, 0],
+    pb: ['10px', '10px', null, 0],
     mx: ['auto', null, null, 0],
     '.description': {
       pr: [0, null, 6, 7, 6],

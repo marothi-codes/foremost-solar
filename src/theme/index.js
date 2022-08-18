@@ -88,17 +88,16 @@ export default {
     },
     services: {
       pt: [1, null, 1, null, null, 1],
-      pb: [1, null, 1, null, null, 10, null, 1],
+      pb: [7, 7, 7, 7, 7, 7, 7, 7],
     },
     whyUs: {
-      pb: [8, null, 9, null, null, 10, null, '170px'],
+      pb: [7, 7, 7, 7, 7, 7, 7, 7],
     },
     news: {
       pb: [8, null, 9, null, null, 10, null, '170px'],
     },
     partners: {
-      pt: [2, 6, 4, '30px', 8, 8, 8, 8],
-      pb: [8, null, 9, null, null, 10, null, 4],
+      pt: [7, 7, 7, 7, 7, 7, 7, 7],
       overflow: 'hidden',
     },
     testimonial: {
@@ -107,8 +106,8 @@ export default {
       overflow: 'hidden',
     },
     about: {
-      pb: ['10px', null, 9, null, null, 10, null, '10px'],
-      pt: [2, null, 4, '30px', null, 6, null, '115px'],
+      pb: [7, 7, 7, 7, 7, 7, 7, 7],
+      pt: [2, null, 4, '10px', null, 6, null, '10px'],
     },
     team: {
       pt: [4, null, 6, null, null, 8, null, '120px'],

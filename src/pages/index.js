@@ -21,11 +21,11 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Foremost Solar (Pty) Ltd: Grid-Tied, Off-Grid or Backup Solar Power Systems Retailer, Distributor & Installer in South Africa" />
           <Banner />
+          <Partners />
           <AboutSection />
           <Services />
           <WhyUs />
           <Process />
-          <Partners />
           <Testimonials />
           <ContactSection />
         </Layout>
