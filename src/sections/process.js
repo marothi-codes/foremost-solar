@@ -9,27 +9,39 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Consultation & Site Visit',
+    title: 'Enquiry & Consultation',
     text:
-      "It all starts with a telephonic consultation with the client then we do a site visit to ascertain what the client wants then we take photos for reference later on. We also get the client's utility account for the last 3 to 6 months.",
+      'Once we receive an enquiry from a client, we give them a call to set an appointment for a site visit. A quote cannot be done without a site visit. If someone offers you a quote without a site visit then you need to think twice about working with them.',
   },
   {
     id: 2,
-    title: 'Quotation Process',
+    title: 'Consultation & Site Visit',
     text:
-      'We draft different quotations giving the client options to consider. In doing this we also supply the client with spreadsheets that have check lists so that the client can make an informed decision regarding which inverter and battery he/she should consider and this goes hand in hand with what we have specified in the quotes.',
+      "After the consultation we visit the client on-site so that we may be able to identify their wants and needs and also offer on-site advice. We take measurements and photos for reference later on and we ask for the client's utility account for the last 3 to 6 months.",
   },
   {
     id: 3,
-    title: 'Order Processing',
+    title: 'Quotation Process',
     text:
-      'Once the client has confirmed the order and paid the initial deposit, we place an order (as per the confirmed quotation) to our supplier and collect it on behalf of the client then we set up an appointment with the client so that our qualified professionals may perform the installation on the date specified.',
+      'We draft different quotations giving the client options to consider. We also supply the client with checklists in the form of spreadsheets so that the client can make an informed decision about which inverter and battery he/she should consider. This goes hand in hand with what we have specified in the quotes.',
   },
   {
     id: 4,
+    title: 'Order Processing',
+    text:
+      'Once the client has confirmed the order and paid the initial deposit, we place an order (as per the confirmed quotation) with our suppliers and collect it on behalf of the client. Foremost Solar will keep each client up to date during this process. We then set an installation date in conjunction with the client and our installations teams.',
+  },
+  {
+    id: 5,
     title: 'Installation & CoC',
     text:
-      'We install the system and once it is up and running and the client has paid the balance of the quote, we issue  a paid in full invoice along with a CoC (Certificate of Compliance).',
+      "We install the system and when it is fully commissioned (including setting up the client with his/her app on their phone) and the client has paid the balance of the quote, we issue a paid in full invoice along with a CoC (Certificate of Compliance). Both of these documents must be submitted to the client's insurance company as soon as possible.",
+  },
+  {
+    id: 6,
+    title: 'After sale service',
+    text:
+      "The client's installer monitors the solar system remotely making online adjustments to get the best out of the system. This is done with the client's input as he/she learns how to use the solar system. Should there be any problems Foremost Solar will assist the client with the warranty or insurance process.",
   },
 ];
 
@@ -69,7 +81,7 @@ const styles = {
     mb: -1,
     pt: 0,
     gridGap: ['35px 0', null, '45px 30px', null, '50px 25px', null, null, '50px 65px'],
-    gridTemplateColumns: ['repeat(1,1fr)', null, 'repeat(1,1fr)', 'repeat(2,1fr)', 'repeat(4,1fr)'],
+    gridTemplateColumns: ['repeat(1,1fr)', null, 'repeat(1,1fr)', 'repeat(2,1fr)', 'repeat(3,1fr)'],
   },
   card: {
     display: 'flex',
