@@ -26,7 +26,7 @@ export default function AboutSection() {
   return (
     <section id="about" sx={{ variant: 'section.about' }}>
       <Container>
-        <TextFeature subTitle={data.subTitle} title={data.title} description={data.description} />
+        <TextFeature title={data.title} description={data.description} />
         <hr sx={theme.styles.hr} />
 
         <Box sx={styles.contentBox}>
