@@ -34,11 +34,11 @@ export default function AboutSection() {
             <Box sx={styles.card}>
               <Box sx={styles.wrapper}>
                 <Text sx={styles.wrapper.subTitle}>
-                  At Foremost Solar (Pty) Ltd, our focus is to assist you to live a greener life by
-                  offering a sustainable energy source solution at your home or your workplace which
-                  will save you money on your utility bill. South Africans are blessed with 8 to 10
-                  sunshine hours daily in most regions which makes Solar Energy a perfect
-                  sustainable energy solution.
+                  Foremost Solar focuses on supplying bespoke solar solutions, quality products and
+                  excellent service. We offer our clients a sustainable energy solution, matched
+                  with a technically well-planned system to save you money on your utility bill.
+                  South Africans are blessed with 8 to 10 sunshine hours daily in most regions which
+                  makes Solar Energy a perfect sustainable energy solution.
                   <br />
                   <br />
                   We pride ourselves in providing individuals and companies solutions that are
@@ -46,13 +46,26 @@ export default function AboutSection() {
                   technically well-planned system. The solutions we offer includes assisting you
                   with just overcoming the hassle of load-shedding to going completely off-grid and
                   being completely self-sufficient. Call or email Foremost Solar today and take one
-                  step closer to a greener future…
+                  step closer to a greener future.
+                  <br />
+                  <br />
                 </Text>
               </Box>
             </Box>
 
             <Box sx={styles.card}>
-              <Box sx={styles.thumbnail}>
+              <Box sx={styles.wrapper}>
+                <Text sx={styles.wrapper.subTitle}>
+                  <strong>Foremost Solar offers bespoke solar solutions for the following:</strong>
+
+                  <ul>
+                    <li>Residential (Individual homes as well as flats and complexes)</li>
+                    <li>Commercial</li>
+                    <li>Industrial</li>
+                    <li>Rural/Farms and small holdings</li>
+                  </ul>
+                </Text>
+                <Box sx={styles.thumbnail}>
                 <Image src={VideoThumb} alt="thumbnail" />
                 <Button sx={styles.videoBtn} onClick={handleClick} aria-label="Play Button">
                   <span>
@@ -60,6 +73,8 @@ export default function AboutSection() {
                   </span>
                 </Button>
               </Box>
+              </Box>
+             
             </Box>
           </Grid>
         </Box>
