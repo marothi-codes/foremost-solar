@@ -14,7 +14,7 @@ const social = [
     title: 'Facebook',
   },
   {
-    path: 'https://instagram.com/foremost-solar',
+    path: 'https://instagram.com/foremostsolar2',
     icon: <FaInstagram />,
     title: 'Instagram',
   },
