@@ -54,6 +54,8 @@ export default function Footer() {
           </Grid>
 
         </Container>
+      </Box>
+      <Box sx={styles.footer.footerBottomArea}>
 
           <ScrollLink
             to="home"
@@ -63,10 +65,8 @@ export default function Footer() {
             duration={800}
             sx={styles.footer.logo}
           >
-            <Image src={FooterLogo} width={260} alt="Foremost Solar Logo" />
+            <Image src={FooterLogo} width={180} alt="Foremost Solar Logo" />
           </ScrollLink>
-      </Box>
-      <Box sx={styles.footer.footerBottomArea}>
         <Box sx={styles.footer.menus}>
           <Text sx={styles.footer.copyright}>
             Foremost Solar (Pty) Ltd
@@ -120,7 +120,7 @@ const styles = {
       color: 'white',
       display: 'flex',
       pt: [5, 6, 6],
-      pb: ['40px', null, '100px'],
+      pb: ['10px', null, '20px'],
       textAlign: 'center',
       flexDirection: 'column',
       nav: {

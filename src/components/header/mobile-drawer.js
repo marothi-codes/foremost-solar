@@ -3,7 +3,7 @@ import { Box } from 'theme-ui';
 import Drawer from 'components/drawer';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
-import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
+import { FaFacebookSquare, FaGoogle, FaInstagram, FaTwitter } from 'react-icons/fa';
 import menuItems from './header.data';
 
 const social = [
@@ -16,6 +16,16 @@ const social = [
     path: 'https://instagram.com/foremost-solar',
     icon: <FaInstagram />,
     title: 'Instagram',
+  },
+  {
+    path: 'https://twitter.com/ForemostSolarZA',
+    icon: <FaTwitter />,
+    title: 'Twitter',
+  },
+  {
+    path: 'https://www.google.com/search?q=foremost+solar&source=hp&ei=ba38YoOhH5KV8gKvx5eIBQ',
+    icon: <FaGoogle />,
+    title: 'Google',
   },
 ];
 

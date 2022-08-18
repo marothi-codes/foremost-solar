@@ -1,4 +1,4 @@
-import { FaFacebookSquare, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookSquare, FaGoogle, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 export default {
   menuItems: [
@@ -12,10 +12,15 @@ export default {
       icon: <FaInstagram />,
       title: 'Instagram',
     },
-    // {
-    //   path: '/',
-    //   icon: <FaLinkedin />,
-    //   title: 'LinkedIn',
-    // },
+    {
+      path: 'https://twitter.com/ForemostSolarZA',
+      icon: <FaTwitter />,
+      title: 'Twitter',
+    },
+    {
+      path: 'https://www.google.com/search?q=foremost+solar&source=hp&ei=ba38YoOhH5KV8gKvx5eIBQ',
+      icon: <FaGoogle />,
+      title: 'Google',
+    },
   ],
 };
