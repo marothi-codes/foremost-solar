@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    title: 'Consultation & Site Visit',
+    title: 'Site Visit',
     text:
       "After the consultation we visit the client on-site so that we may be able to identify their wants and needs and also offer on-site advice. We take measurements and photos for reference later on and we ask for the client's utility account for the last 3 to 6 months.",
   },
