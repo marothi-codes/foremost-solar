@@ -9,15 +9,15 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Enquiry & Consultation',
+    title: 'Enquiry',
     text:
       'Once we receive an enquiry from a client, we give them a call to set an appointment for a site visit. A quote cannot be done without a site visit. If someone offers you a quote without a site visit then you need to think twice about working with them.',
   },
   {
     id: 2,
-    title: 'Site Visit',
+    title: 'Consultation & Site Visit',
     text:
-      "After the consultation we visit the client on-site so that we may be able to identify their wants and needs and also offer on-site advice. We take measurements and photos for reference later on and we ask for the client's utility account for the last 3 to 6 months.",
+      "We visit the client on-site so that we may be able to identify their wants and needs and also offer on-site advice. We take measurements and photos for reference later on and we ask for the client's utility account for the last 3 to 6 months.",
   },
   {
     id: 3,
