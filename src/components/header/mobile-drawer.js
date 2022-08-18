@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Box } from 'theme-ui';
 import Drawer from 'components/drawer';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link } from '../link';
 import { FaFacebookSquare, FaGoogle, FaInstagram, FaTwitter } from 'react-icons/fa';
 import menuItems from './header.data';
 
@@ -49,7 +50,7 @@ export default function MobileDrawer() {
       <Box sx={styles.content}>
         <Box sx={styles.menu}>
           {menuItems.map((item, idx) => (
-            <Link
+            <ScrollLink
               activeClass="active"
               to={item.path}
               spy={true}
@@ -60,7 +61,7 @@ export default function MobileDrawer() {
               onClick={() => setIsDrawerOpen((previousState) => !previousState)}
             >
               {item.label}
-            </Link>
+            </ScrollLink>
           ))}
         </Box>
         <Box sx={styles.menuFooter}>
@@ -68,7 +69,10 @@ export default function MobileDrawer() {
             {social.map((item, idx) => (
               <Box as="span" key={idx} sx={styles.social.icon}>
                 <Link
-                  to={item.path}
+                  path={item.path}
+                  target="_blank"
+                  sx={styles.social.link}
+                  rel="noopener noreferrer"
                   onClick={() => setIsDrawerOpen((previousState) => !previousState)}
                 >
                   {item.icon}
@@ -98,15 +102,15 @@ const styles = {
   drawer: {
     width: '100%',
     height: '100%',
-    backgroundColor: '#fff',
-    color: 'text',
+    backgroundColor: 'black',
+    color: 'white',
   },
 
   close: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color: 'text',
+    color: 'white',
     position: 'absolute',
     top: '25px',
     right: '30px',
@@ -131,7 +135,7 @@ const styles = {
     a: {
       fontSize: '16px',
       fontWeight: '500',
-      color: 'text',
+      color: 'white',
       py: '15px',
       cursor: 'pointer',
       borderBottom: '1px solid #e8e5e5',
@@ -164,16 +168,23 @@ const styles = {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      color: 'text',
-      fontSize: 14,
+      fontSize: 18,
       mr: '15px',
       transition: 'all 0.25s',
       cursor: 'pointer',
       ':last-child': {
         mr: '0',
       },
+    },
+    link: {
+      color: 'secondary',
+      transition: 'all 0.35s',
+      textDecoration: 'none',
       '&:hover': {
         color: 'primary',
+      },
+      '&:visited': {
+        color: 'secondary',
       },
     },
   },
