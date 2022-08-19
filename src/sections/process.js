@@ -75,7 +75,7 @@ const styles = {
   process: {
     backgroundColor: '#4099ed',
     position: 'relative',
-    py: [8, null, 9, null, null, 10],
+    py: [7, 7, 7, 7, 7, 7],
   },
   grid: {
     mb: -1,

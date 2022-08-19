@@ -4,31 +4,8 @@ import Drawer from 'components/drawer';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from '../link';
-import { FaFacebookSquare, FaGoogle, FaInstagram, FaTwitter } from 'react-icons/fa';
 import menuItems from './header.data';
-
-const social = [
-  {
-    path: 'https://www.facebook.com/SolarForemost/',
-    icon: <FaFacebookSquare />,
-    title: 'Facebook',
-  },
-  {
-    path: 'https://instagram.com/foremostsolar2',
-    icon: <FaInstagram />,
-    title: 'Instagram',
-  },
-  {
-    path: 'https://twitter.com/ForemostSolarZA',
-    icon: <FaTwitter />,
-    title: 'Twitter',
-  },
-  {
-    path: 'https://www.google.com/search?q=foremost+solar&source=hp&ei=ba38YoOhH5KV8gKvx5eIBQ',
-    icon: <FaGoogle />,
-    title: 'Google',
-  },
-];
+import { social } from '../../utils/socialLinks';
 
 export default function MobileDrawer() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);

@@ -97,7 +97,7 @@ export default {
       pb: [8, null, 9, null, null, 10, null, '170px'],
     },
     partners: {
-      pt: [7, 7, 7, 7, 7, 7, 7, 7],
+      mt: '-60px',
       overflow: 'hidden',
     },
     testimonial: {
@@ -120,7 +120,7 @@ export default {
     flexDirection: 'column',
     alignItems: 'center',
     mt: ['-3px', null, -1],
-    marginBottom: ['50px', null, '60px', null, null, '65px', null, '80px'],
+    marginBottom: [4, 4, 4, 4, 4, 4, 4, 4],
     mx: 'auto',
     title: {
       fontSize: ['24px', null, '28px', null, null, '32px', null, '36px'],

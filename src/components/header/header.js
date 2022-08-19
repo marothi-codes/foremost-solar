@@ -1,8 +1,10 @@
 /** @jsx jsx */
 import { jsx, Container, Flex } from 'theme-ui';
 import { keyframes } from '@emotion/core';
-import { Link } from 'react-scroll';
+import { Link } from '../link';
+import { Link as ScrollLink } from 'react-scroll';
 import Logo from 'components/logo';
+import { social } from '../../utils/socialLinks';
 import LogoDark from 'assets/logo.png';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -14,7 +16,7 @@ export default function Header({ className }) {
         <Logo src={LogoDark} />
         <Flex as="nav" sx={styles.nav}>
           {menuItems.map((item, idx) => (
-            <Link
+            <ScrollLink
               activeClass="active"
               to={item.path}
               spy={true}
@@ -23,7 +25,18 @@ export default function Header({ className }) {
               duration={800}
               key={idx}>
               {item.label}
-            </Link>
+            </ScrollLink>
+          ))}
+          {social.map((item, idx) => (
+            <Link
+                  key={`link-${idx}`}
+                  path={item.path}
+                  sx={styles.social.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.icon}
+                </Link>
           ))}
         </Flex>
         {/* Mobile specific navbar */}
@@ -92,10 +105,28 @@ const styles = {
       lineHeight: '1.2',
       transition: 'all 0.15s',
       '&:hover': {
-        color: '#b151d7',
+        color: 'primary',
       },
       '&.active': {
-        color: '#b151d7',
+        color: 'secondary',
+      },
+    },
+  },
+  social: {
+    width: '100%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: '0.5rem',
+    link: {
+      color: 'white',
+      transition: 'all 0.35s',
+      textDecoration: 'none',
+      '&:hover': {
+        color: 'primary',
+      },
+      '&:visited': {
+        color: 'white',
       },
     },
   },

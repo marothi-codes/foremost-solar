@@ -23,10 +23,10 @@ export default [
   //   path: 'team',
   //   label: 'Team',
   //},
-  {
-    path: 'testimonial',
-    label: 'Testimonials',
-  },
+  // {
+  //   path: 'testimonial',
+  //   label: 'Testimonials',
+  // },
   {
     path: 'contact',
     label: 'Contact',

@@ -105,9 +105,6 @@ export default function Testimonials() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container css={{ textAlign: 'center' }}>
-        <hr sx={theme.styles.hr} />
-        <br />
-        <br />
         <SectionHeader slogan="What our Clients have to say" title="Testimonials" />
       </Container>
       <Box sx={styles.carouselWrapper}>

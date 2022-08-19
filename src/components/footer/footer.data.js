@@ -8,11 +8,6 @@ export default {
       title: 'Facebook',
     },
     {
-      path: 'https://instagram.com/foremostsolar2',
-      icon: <FaInstagram />,
-      title: 'Instagram',
-    },
-    {
       path: 'https://twitter.com/ForemostSolarZA',
       icon: <FaTwitter />,
       title: 'Twitter',
@@ -21,6 +16,11 @@ export default {
       path: 'https://www.google.com/search?q=foremost+solar&source=hp&ei=ba38YoOhH5KV8gKvx5eIBQ',
       icon: <FaGoogle />,
       title: 'Google',
+    },
+    {
+      path: 'https://instagram.com/foremostsolar2',
+      icon: <FaInstagram />,
+      title: 'Instagram',
     },
   ],
 };

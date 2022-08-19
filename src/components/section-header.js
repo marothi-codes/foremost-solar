@@ -4,7 +4,7 @@ import { Box, Text, Heading } from 'theme-ui';
 export default function SectionHeader({ title, slogan, isWhite }) {
   return (
     <Box sx={{ variant: 'sectionHeader' }}>
-      <Text
+      {/*<Text
         as="p"
         sx={{
           variant: 'sectionHeader.subTitle',
@@ -12,7 +12,7 @@ export default function SectionHeader({ title, slogan, isWhite }) {
           opacity: isWhite ? 0.7 : 1,
         }}>
         {slogan}
-      </Text>
+      </Text>*/}
       <Heading
         as="h2"
         sx={{

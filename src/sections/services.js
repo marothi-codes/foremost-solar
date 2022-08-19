@@ -72,7 +72,6 @@ export default function Services() {
       <Container>
         <hr sx={theme.styles.hr} />
         <br />
-        <br />
         <SectionHeader slogan="WHAT DO WE DO?" title="Our Services" />
         <hr sx={theme.styles.hr} />
         <br />

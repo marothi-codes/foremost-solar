@@ -128,12 +128,13 @@ const carouselParams = {
 
 export default function Partners() {
   return (
-    <section sx={{ variant: 'section.partners' }}>
+    <section
+      sx={{
+        variant: 'section.partners',
+      }}
+    >
       <Container sx={styles.containerBox}>
         <Box sx={styles.header}>
-          <SectionHeader slogan={data.subTitle} title={data.title} />
-          <hr sx={theme.styles.hr} />
-
           <Box sx={styles.reviewCard}>
             <Carousel {...carouselParams}>
               {partnerLogos.map((item, idx) => (
@@ -155,13 +156,14 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'space-between',
     flexWrap: ['wrap', null, null, 'nowrap'],
+    zIndex: '1000000',
   },
   contentBox: {
     flexShrink: 0,
-    px: [0, null, '30px', 0],
+    px: [0, null, 0, 0],
     textAlign: ['center', null, null, 'left'],
     width: ['100%', '80%', null, 340, 400, 430, null, 485],
-    pb: ['10px', '10px', null, 0],
+    pb: [0, 0, null, 0],
     mx: ['auto', null, null, 0],
     '.description': {
       pr: [0, null, 6, 7, 6],
@@ -186,8 +188,7 @@ const styles = {
     justifyContent: 'flex-end',
     flexDirection: 'column',
     alignItems: 'flex-end',
-    mt: '-30px',
-    px: '15px',
+    px: 0,
     '.carousel-container': {
       width: '100%',
       maxWidth: ['100%', null, null, '750px', '1000px', '1180px', null, 'calc(50% + 865px)'],
@@ -208,6 +209,7 @@ const styles = {
     boxShadow: '0px 0px 1px rgba(38, 78, 118, 0.35)',
     transition: 'all 0.3s',
     borderRadius: '6px',
+    zIndex: 1000000,
     p: [
       '30px 20px 35px',
       '30px 25px 35px',
@@ -254,7 +256,7 @@ const styles = {
     '.card-footer': {
       display: 'flex',
       alignItems: 'center',
-      marginTop: [5, null, null, '33px'],
+      marginTop: [2, null, null, 2],
       '.image': {
         flexShrink: 0,
         mr: [3, null, null, 4],

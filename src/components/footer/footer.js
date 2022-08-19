@@ -3,7 +3,7 @@ import { jsx, Box, Container, Grid, Image, Text } from 'theme-ui';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from '../link';
 import theme from 'theme';
-import data from './footer.data';
+import { social } from '../../utils/socialLinks';
 import FooterLogo from 'assets/footer-logo.png';
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
               </Link>
 
               <nav>
-                {data.menuItems.map((item, idx) => (
+                {social.map((item, idx) => (
                   <Link
                     key={idx}
                     path={item.path}
