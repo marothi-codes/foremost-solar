@@ -107,7 +107,7 @@ export default {
     },
     about: {
       pb: [7, 7, 7, 7, 7, 7, 7, 7],
-      pt: [2, null, 4, '10px', null, 6, null, '10px'],
+      pt: [2, 6, 6, 6, 6, 6, 6, 12],
     },
     team: {
       pt: [4, null, 6, null, null, 8, null, '120px'],
