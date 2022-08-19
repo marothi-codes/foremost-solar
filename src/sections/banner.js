@@ -21,7 +21,7 @@ const styles = {
     backgroundColor: 'black',
     paddingTop: '100px',
       '@media screen and (max-width: 767.99px)': {
-        aspectRatio: '0.9/ 1.2',
+        aspectRatio: '0.9/ 0.6',
         backgroundSize: 'contain',
     },
   },

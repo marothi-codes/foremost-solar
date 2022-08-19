@@ -97,7 +97,7 @@ export default {
       pb: [8, null, 9, null, null, 10, null, '170px'],
     },
     partners: {
-      mt: '-60px',
+      mt: '-50px',
       overflow: 'hidden',
     },
     testimonial: {
