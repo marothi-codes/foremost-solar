@@ -10,7 +10,7 @@ import Services from '../sections/services';
 import AboutSection from '../sections/about-section';
 import WhyUs from '../sections/why-us';
 import Process from '../sections/process';
-import Testimonials from '../sections/testimonial';
+//import Testimonials from '../sections/testimonial';
 import ContactSection from 'sections/contact-section';
 import Partners from 'sections/partners';
 
@@ -26,7 +26,7 @@ export default function IndexPage() {
           <Services />
           <WhyUs />
           <Process />
-          <Testimonials />
+          {/*<Testimonials />*/}
           <ContactSection />
         </Layout>
       </ParallaxProvider>
