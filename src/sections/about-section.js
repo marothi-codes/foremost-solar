@@ -24,7 +24,7 @@ export default function AboutSection() {
   };
 
   return (
-    <section sx={{ variant: 'section.about' }}>
+    <section id="about" sx={{ variant: 'section.about' }}>
       <div>&nbsp;</div>
       <Container>
         <TextFeature title={data.title} description={data.description} />

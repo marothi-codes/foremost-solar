@@ -146,8 +146,6 @@ export default function Partners() {
           </Box>
         </Box>
       </Container>
-      <div id="about"></div>
-      <div></div>
     </section>
   );
 }
